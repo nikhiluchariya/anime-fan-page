@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime fan page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" aria-label="Main navigation">
+        <ul>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Anime poll</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="anime-section">
+            <h1>Ryomen Sukuna</h1>
+            <h3>The King of Curses</h3>
+            <img src="sukuna.jpeg" alt="Ryomen Sukuna" class="anime-image" alt="sukuna">
+
+            <table>
+                <tr>
+                    <th>Curse technique</th>
+                    <th>Curse energy output</th>
+                </tr>
+                <tr>
+                    <td>Slash</td>
+                    <td>Highest curse energy</td>
+                </tr>
+            </table>
+
+            <p>Click below if you want to know more about it.</p>
+            <div class="button-bar">
+                <a href="https://jujutsu-kaisen.fandom.com/wiki/Sukuna" target="_blank"> <button type="button">Click me</button></a>
+            </div>
+        </section>
+
+        <section class="anime-section">
+            <article>
+                Eight-Handled Sword Divergent Sila Divine General Mahoraga
+            </article>
+            <img src="mahoraga.png" alt="Mahoraga" class="anime-image">
+
+            <table>
+                <tr>
+                    <th>Curse technique</th>
+                    <th>Adapt</th>
+                </tr>
+                <tr>
+                    <td>He is the strongest ten shadows</td>
+                    <td>No one was able to tame him</td>
+                </tr>
+            </table>
+
+            <p>Click below to know more about him.</p>
+            <div class="button-bar">
+                <a href="https://jujutsu-kaisen.fandom.com/wiki/Eight-Handled_Sword_Divergent_Sila_Divine_General_Mahoraga"><button type="button">Click me</button></a>
+            </div>
+        </section>
+
+        <section class="poll-section">
+            <article>Tell me who is going to win in a 1 vs 1 battle</article>
+
+            <form class="poll-form">
+                <label>
+                    <input type="radio" name="anime" value="Ryomen Sukuna">
+                    Ryomen Sukuna
+                </label>
+                <label>
+                    <input type="radio" name="anime" value="General Mahoraga">
+                    General Mahoraga
+                </label>
+            </form>
+
+            <h2>We would like to know your answer about the above poll</h2>
+            <form id="box1">
+                <input type="text" placeholder="Enter your comment">
+            </form>
+
+            <h1>Fight highlight of Ryomen Sukuna vs Mahoraga</h1>
+            <video src="fight1.mp4" controls></video>
+        </section>
+    </main>
+</body>
+</html>
